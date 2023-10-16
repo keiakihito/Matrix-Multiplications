@@ -30,7 +30,7 @@ public class Main {
         //It records each time execution time and its average time in the end
         //It is up to 2^1 to 2^10
         //FIXME the first iteration becomes outlier , value is exceeding, why 🤔
-//        TestSuites.run50timesEachMethod();
+       TestSuites.run50timesEachMethod();
 
 
 
