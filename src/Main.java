@@ -6,10 +6,10 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         //Basic Test for classical multiplication, method (a)
-//        TestSuites.classicalMultiplicationTest();
+       TestSuites.classicalMultiplicationTest();
 
         //Basic Test for divide and conquer multiplication, method (b)
-//        TestSuites.divideConquerMultiplicationTestA();
+       TestSuites.divideConquerMultiplicationTestA();
 
         //Alternate test for the divide and conquer multiplication, method (b)
         //The test creates random number from -9 to 9
@@ -18,13 +18,13 @@ public class Main {
         TestSuites.divideConquerMultiplicationTestB();
 
         //Basic Test for strassen multiplication, method (c)
-//        TestSuites.strassenMultiplicationTestA();
+       TestSuites.strassenMultiplicationTestA();
 
         //Alternate test for the strassen multiplication, method (c)
         //The test creates random number from -9 to 9
         //It creates N by N matrices size of 2^2 to 2^10
         //Compare the calculation result between method a and method b.
-//        TestSuites.divideConquerMultiplicationTestB();
+       TestSuites.divideConquerMultiplicationTestB();
 
         //The test method executes all the three  methods 50 times each
         //It records each time execution time and its average time in the end
